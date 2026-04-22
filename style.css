@@ -1,0 +1,45 @@
+:root {
+    --card-bg: #ffffff;
+    --text-color: #212529;
+}
+
+[data-theme="dark"] {
+    --card-bg: #2b3035;
+    --text-color: #f8f9fa;
+    background-color: #1a1d20 !important;
+}
+
+[data-theme="dark"] .card {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .table {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .form-control, 
+[data-theme="dark"] .form-select {
+    background-color: #343a40;
+    color: white;
+    border-color: #495057;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.income-text {
+    color: #198754;
+    font-weight: bold;
+}
+
+.expense-text {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.btn-sm-icon {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+}
